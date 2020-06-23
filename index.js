@@ -1,7 +1,9 @@
 const http = require('http');
-const person = require('./person');
+const winston = require('winston')
 
-console.log(person);
+winston.log('info', 'Hello log files!', {
+    someKey: 'some-value'
+  })
 
 const server = http.createServer((req, res) => {
     if (req.url === '/') {
