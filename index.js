@@ -1,7 +1,7 @@
 const http = require('http');
 const winston = require('winston')
 
-winston.log('info', 'Hello log files!', {
+winston.log('warn', 'Hello log files!', {
     someKey: 'some-value'
   })
 
