@@ -1,5 +1,7 @@
-console.log('Hello from Nodejs');
 const http = require('http');
+const person = require('./person');
+
+console.log(person);
 
 const server = http.createServer((req, res) => {
     if (req.url === '/') {
