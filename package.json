@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chadmcrowell/project/issues"
   },
-  "homepage": "https://github.com/chadmcrowell/project#readme"
+  "homepage": "https://github.com/chadmcrowell/project#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
