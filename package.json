@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "my project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadmcrowell/project.git"
+  },
+  "author": "Chad Crowell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chadmcrowell/project/issues"
+  },
+  "homepage": "https://github.com/chadmcrowell/project#readme"
+}
