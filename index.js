@@ -1,9 +1,4 @@
 const http = require('http');
-const winston = require('winston')
-
-winston.log('warn', 'Hello log files!', {
-    someKey: 'some-value'
-  })
 
 const server = http.createServer((req, res) => {
     if (req.url === '/') {
