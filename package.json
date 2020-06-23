@@ -18,5 +18,8 @@
   "homepage": "https://github.com/chadmcrowell/project#readme",
   "dependencies": {
     "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
   }
 }
